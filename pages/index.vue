@@ -22,6 +22,9 @@
         >
           GitHub
         </a>
+        <b-button>
+          le xd
+        </b-button>
       </div>
     </div>
   </div>
