@@ -1,76 +1,40 @@
 <template>
   <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">
-        30-anios-de-la-constitucion
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-        <b-button>
-          le xd
-        </b-button>
-      </div>
-    </div>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum ligula eleifend, eleifend tortor in, egestas risus. Donec fermentum erat nibh, eget lacinia metus vulputate ut. Integer at ullamcorper dui. Mauris eu nibh vel est lobortis condimentum. Nullam euismod risus ligula, id dictum libero molestie at. Integer auctor posuere feugiat. Donec ac magna tristique arcu rutrum eleifend. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi id mollis erat, eu sodales risus. Vestibulum ut ex fermentum, volutpat lacus non, vestibulum lorem. Morbi sed tortor quis dolor convallis placerat. Integer velit ex, accumsan et ultricies sed, aliquet eu turpis. Nullam bibendum nulla id nulla egestas lacinia. Donec malesuada mi ante, eu tristique quam iaculis ut. Nullam ut sapien dapibus, blandit metus at, aliquet massa. Quisque fermentum volutpat justo a vulputate.
+    <br>
+    <br>
+    Donec nisi elit, congue faucibus rutrum eu, malesuada sit amet est. In a varius risus. Duis dictum urna urna, non semper ante sagittis a. Quisque interdum cursus tellus eget vehicula. Sed in facilisis risus. Cras erat tellus, facilisis sed lectus et, ullamcorper tempor nunc. Nunc scelerisque commodo fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum aliquam fermentum aliquam. Praesent sit amet erat purus. Mauris enim eros, faucibus at lectus sit amet, efficitur elementum tellus. Maecenas semper, sem ut finibus hendrerit, magna lacus tincidunt tellus, eu molestie mi eros nec eros. In tincidunt lacinia ultrices. Quisque mollis ex efficitur, lacinia risus eu, semper dui.
+    <br>
+    <br>
+    Donec luctus sit amet orci vitae varius. Etiam convallis magna eu blandit lobortis. In lacinia quam non mi gravida, in sodales lectus iaculis. Sed eu augue in purus cursus rutrum nec vel eros. Ut tincidunt quis odio ac tincidunt. Etiam sit amet nisi nec magna tempus elementum eget commodo justo. Sed luctus odio sapien, quis rhoncus ex vehicula non. Cras dictum vel est in placerat. Cras condimentum et nibh eu dapibus. Nullam vitae accumsan eros. Quisque metus erat, consectetur eget nibh vel, pretium cursus magna. Nam pharetra dignissim ex eu consectetur. Phasellus tempus neque vel neque blandit laoreet. Cras consectetur odio ut lacus consectetur aliquet. Duis pulvinar pretium massa, accumsan pretium neque dignissim ac. Fusce sit amet eleifend diam.
+    <br>
+    <br>
+    Aliquam laoreet, sem sed elementum convallis, lacus dui posuere ipsum, venenatis suscipit orci metus eget augue. Pellentesque ornare, lorem id gravida mattis, nibh ante convallis velit, ac gravida ipsum ante quis lectus. Ut viverra lorem ac eros egestas, ac luctus ipsum volutpat. Donec tristique orci in sapien interdum, et accumsan erat varius. Donec tempus tortor in mauris ultricies, sit amet hendrerit est accumsan. Nunc ornare ut ligula a tempor. Duis quis velit elit.
+    <br>
+    <br>
+    Nunc nec dapibus ipsum. Praesent iaculis, dolor at cursus ornare, leo neque laoreet nisi, et varius erat dolor in ante. Sed quis sapien metus. Proin eleifend ligula ac eleifend laoreet. Nunc id dolor dictum, congue turpis ut, sagittis justo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras et mauris massa. Vivamus eget sodales tellus, eget lobortis augue. Nullam malesuada metus in quam condimentum, vitae auctor ex condimentum. Nunc egestas egestas quam, at fermentum augue faucibus id. Aliquam faucibus tellus eros, ullamcorper euismod lacus malesuada a.
+    <br>
+    <br>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum ligula eleifend, eleifend tortor in, egestas risus. Donec fermentum erat nibh, eget lacinia metus vulputate ut. Integer at ullamcorper dui. Mauris eu nibh vel est lobortis condimentum. Nullam euismod risus ligula, id dictum libero molestie at. Integer auctor posuere feugiat. Donec ac magna tristique arcu rutrum eleifend. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi id mollis erat, eu sodales risus. Vestibulum ut ex fermentum, volutpat lacus non, vestibulum lorem. Morbi sed tortor quis dolor convallis placerat. Integer velit ex, accumsan et ultricies sed, aliquet eu turpis. Nullam bibendum nulla id nulla egestas lacinia. Donec malesuada mi ante, eu tristique quam iaculis ut. Nullam ut sapien dapibus, blandit metus at, aliquet massa. Quisque fermentum volutpat justo a vulputate.
+    <br>
+    <br>
+    Donec nisi elit, congue faucibus rutrum eu, malesuada sit amet est. In a varius risus. Duis dictum urna urna, non semper ante sagittis a. Quisque interdum cursus tellus eget vehicula. Sed in facilisis risus. Cras erat tellus, facilisis sed lectus et, ullamcorper tempor nunc. Nunc scelerisque commodo fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum aliquam fermentum aliquam. Praesent sit amet erat purus. Mauris enim eros, faucibus at lectus sit amet, efficitur elementum tellus. Maecenas semper, sem ut finibus hendrerit, magna lacus tincidunt tellus, eu molestie mi eros nec eros. In tincidunt lacinia ultrices. Quisque mollis ex efficitur, lacinia risus eu, semper dui.
+    <br>
+    <br>
+    Donec luctus sit amet orci vitae varius. Etiam convallis magna eu blandit lobortis. In lacinia quam non mi gravida, in sodales lectus iaculis. Sed eu augue in purus cursus rutrum nec vel eros. Ut tincidunt quis odio ac tincidunt. Etiam sit amet nisi nec magna tempus elementum eget commodo justo. Sed luctus odio sapien, quis rhoncus ex vehicula non. Cras dictum vel est in placerat. Cras condimentum et nibh eu dapibus. Nullam vitae accumsan eros. Quisque metus erat, consectetur eget nibh vel, pretium cursus magna. Nam pharetra dignissim ex eu consectetur. Phasellus tempus neque vel neque blandit laoreet. Cras consectetur odio ut lacus consectetur aliquet. Duis pulvinar pretium massa, accumsan pretium neque dignissim ac. Fusce sit amet eleifend diam.
+    <br>
+    <br>
+    Aliquam laoreet, sem sed elementum convallis, lacus dui posuere ipsum, venenatis suscipit orci metus eget augue. Pellentesque ornare, lorem id gravida mattis, nibh ante convallis velit, ac gravida ipsum ante quis lectus. Ut viverra lorem ac eros egestas, ac luctus ipsum volutpat. Donec tristique orci in sapien interdum, et accumsan erat varius. Donec tempus tortor in mauris ultricies, sit amet hendrerit est accumsan. Nunc ornare ut ligula a tempor. Duis quis velit elit.
+    <br>
+    <br>
+    Nunc nec dapibus ipsum. Praesent iaculis, dolor at cursus ornare, leo neque laoreet nisi, et varius erat dolor in ante. Sed quis sapien metus. Proin eleifend ligula ac eleifend laoreet. Nunc id dolor dictum, congue turpis ut, sagittis justo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras et mauris massa. Vivamus eget sodales tellus, eget lobortis augue. Nullam malesuada metus in quam condimentum, vitae auctor ex condimentum. Nunc egestas egestas quam, at fermentum augue faucibus id. Aliquam faucibus tellus eros, ullamcorper euismod lacus malesuada a.
   </div>
 </template>
 
 <script>
-export default {}
+
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
-.title {
-  font-family:
-    'Quicksand',
-    'Source Sans Pro',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    'Helvetica Neue',
-    Arial,
-    sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>
