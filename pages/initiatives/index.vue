@@ -17,7 +17,10 @@
 </template>
 
 <script>
-export default {};
+const drive = require('../../services/drive')
+export default {
+  beforeUpdate: drive.intento
+}
 </script>
 
 <style>
