@@ -17,9 +17,7 @@
 </template>
 
 <script>
-const drive = require('../../services/drive')
 export default {
-  beforeUpdate: drive.intento
 }
 </script>
 
