@@ -1,18 +1,59 @@
 <template>
   <div class="container">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum
-    ligula eleifend, eleifend tortor in, egestas risus. Donec fermentum erat
-    nibh, eget lacinia metus vulputate ut. Integer at ullamcorper dui. Mauris eu
-    nibh vel est lobortis condimentum. Nullam euismod risus ligula, id dictum
-    libero molestie at. Integer auctor posuere feugiat. Donec ac magna tristique
-    arcu rutrum eleifend. Class aptent taciti sociosqu ad litora torquent per
-    conubia nostra, per inceptos himenaeos. Morbi id mollis erat, eu sodales
-    risus. Vestibulum ut ex fermentum, volutpat lacus non, vestibulum lorem.
-    Morbi sed tortor quis dolor convallis placerat. Integer velit ex, accumsan
-    et ultricies sed, aliquet eu turpis. Nullam bibendum nulla id nulla egestas
-    lacinia. Donec malesuada mi ante, eu tristique quam iaculis ut. Nullam ut
-    sapien dapibus, blandit metus at, aliquet massa. Quisque fermentum volutpat
-    justo a vulputate.
+    <b-row align-h="center" class="py-2 my-2">
+      <b-card-group deck>
+        <b-card
+          title="Card Title"
+          img-src="/Laura Sofía León Vega.jpeg"
+          img-alt="Laura Sofía León Vega"
+          img-top
+          style="max-width: 20rem;"
+          class="mb-2"
+          border-variant="primary"
+        >
+          <b-card-text>
+            Some quick example text to build on the card title and make up the bulk of the card's content.
+          </b-card-text>
+          <template #footer>
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </template>
+        </b-card>
+
+        <b-card
+          title="Card Title"
+          img-src="/Maria Paula Varcarcel.jpeg"
+          img-alt="Maria Paula Varcarcel"
+          img-top
+          style="max-width: 20rem;"
+          class="mb-2"
+          border-variant="primary"
+        >
+          <b-card-text>
+            Some quick example text to build on the card title and make up the bulk of the card's content.
+          </b-card-text>
+          <template #footer>
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </template>
+        </b-card>
+
+        <b-card
+          title="Card Title"
+          img-src="/Valeria Diaz Moya.jpeg"
+          img-alt="Valeria Diaz Moya"
+          img-top
+          style="max-width: 20rem;"
+          class="mb-2"
+          border-variant="primary"
+        >
+          <b-card-text>
+            Some quick example text to build on the card title and make up the bulk of the card's content.
+          </b-card-text>
+          <template #footer>
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </template>
+        </b-card>
+      </b-card-group>
+    </b-row>
   </div>
 </template>
 

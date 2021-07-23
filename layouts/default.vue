@@ -6,7 +6,6 @@
       </b-container>
     </div>
     <b-navbar
-      toggleable="lg"
       sticky
       fixed="top"
     >
