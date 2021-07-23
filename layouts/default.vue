@@ -2,7 +2,7 @@
   <div>
     <div class="navUp">
       <b-container>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum ligula eleifend, eleifend tortor in, egestas risus. Donec fermentum erat nibh, eget lacinia metus vulputate
+        Una iniciativa para mostrar material sobre la Constitución Política de Colombia
       </b-container>
     </div>
     <b-navbar
@@ -14,7 +14,7 @@
         *Inserte Logo y/o titulo aca*
       </b-navbar-brand>
       <b-navbar-nav class="ml-auto pr-5">
-        <b-nav-item v-for="(item, key) in navbarItems" :key="key" :href="item.link" class="px-2">
+        <b-nav-item v-for="(item, key) in navbarItems" :key="key" :href="item.link" class="px-1">
           {{ item.title }}
         </b-nav-item>
       </b-navbar-nav>
@@ -47,14 +47,6 @@ export default {
         {
           title: 'Libro',
           link: 'book'
-        },
-        {
-          title: 'Iniciativas',
-          link: 'initiatives'
-        },
-        {
-          title: 'Eventos',
-          link: 'events'
         },
         {
           title: 'Contactanos',
