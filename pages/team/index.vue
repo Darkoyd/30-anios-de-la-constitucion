@@ -4,7 +4,7 @@
       <b-card-group deck>
         <b-card
           title="Card Title"
-          img-src="/Laura Sofía León Vega.jpeg"
+          img-src="/Equipo/Investigadores/Laura Sofía León Vega.jpeg"
           img-alt="Laura Sofía León Vega"
           img-top
           style="max-width: 20rem;"
@@ -21,7 +21,7 @@
 
         <b-card
           title="Card Title"
-          img-src="/Maria Paula Varcarcel.jpeg"
+          img-src="/Equipo/Investigadores/Maria Paula Varcarcel.jpeg"
           img-alt="Maria Paula Varcarcel"
           img-top
           style="max-width: 20rem;"
@@ -38,7 +38,7 @@
 
         <b-card
           title="Card Title"
-          img-src="/Valeria Diaz Moya.jpeg"
+          img-src="/Equipo/Investigadores/Valeria Diaz Moya.jpeg"
           img-alt="Valeria Diaz Moya"
           img-top
           style="max-width: 20rem;"
