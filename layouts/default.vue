@@ -45,11 +45,7 @@ export default {
         },
         {
           title: 'Libro',
-          link: '/book'
-        },
-        {
-          title: 'Contactanos',
-          link: '/contact'
+          link: 'book'
         }
       ]
     }
