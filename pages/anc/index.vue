@@ -96,6 +96,7 @@
     <br>
     <br>
     <h4>Documental</h4>
+    <br>
     <h5>¿Cuál fue el legado de la Asamblea Nacional Constituyente?</h5>
     <small class="text-muted">Autor: El Espectador</small>
     <b-embed
@@ -107,33 +108,44 @@
     <br>
     <br>
     <h4>Intervenciones </h4>
-    <h5>Intervención de Constituyente Indígena</h5>
-    <small class="text-muted">Autor: Banco de la republica</small>
-    <b-embed
-      type="iframe"
-      aspect="16by9"
-      src="https://www.youtube.com/embed/eg63tUWbDPs"
-      allowfullscreen
-    />
     <br>
-    <br>
-    <h5>Intervención Álvaro Gómez Hurtado</h5>
-    <small class="text-muted">Autor: Banco de la República</small>
-    <b-embed
-      type="iframe"
-      aspect="16by9"
-      src="https://www.youtube.com/embed/Fh_Y5GXoLik"
-      allowfullscreen
-    />
-    <br>
-    <br>
-    <h5>Video Clausura de la Asamblea Nacional Constituyente </h5>
-    <b-embed
-      type="iframe"
-      aspect="16by9"
-      src="https://www.youtube.com/embed/vy-cBQSNpQs"
-      allowfullscreen
-    />
+    <b-row>
+      <b-col cols="4">
+        <div>
+          <h5>Intervención de Constituyente Indígena</h5>
+          <small class="text-muted">Autor: Banco de la republica</small>
+          <b-embed
+            type="iframe"
+            aspect="16by9"
+            src="https://www.youtube.com/embed/eg63tUWbDPs"
+            allowfullscreen
+          />
+        </div>
+      </b-col>
+      <b-col cols="4">
+        <div>
+          <h5>Intervención Álvaro Gómez Hurtado</h5>
+          <small class="text-muted">Autor: Banco de la República</small>
+          <b-embed
+            type="iframe"
+            aspect="16by9"
+            src="https://www.youtube.com/embed/Fh_Y5GXoLik"
+            allowfullscreen
+          />
+        </div>
+      </b-col>
+      <b-col cols="4">
+        <div>
+          <h5>Video Clausura de la Asamblea Nacional Constituyente </h5>
+          <b-embed
+            type="iframe"
+            aspect="16by9"
+            src="https://www.youtube.com/embed/vy-cBQSNpQs"
+            allowfullscreen
+          />
+        </div>
+      </b-col>
+    </b-row>
     <br>
     <br>
     <h4>Actas</h4>
