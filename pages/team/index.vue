@@ -21,8 +21,42 @@
 
         <b-card
           title="Card Title"
+          img-src="Equipo\Investigadores\Juan Felipe Lizarazo Villamizar.jpg"
+          img-alt="Juan Felipe Lizarazo Villamizar"
+          img-top
+          style="max-width: 20rem;"
+          class="mb-2"
+          border-variant="primary"
+        >
+          <b-card-text>
+            Some quick example text to build on the card title and make up the bulk of the card's content.
+          </b-card-text>
+          <template #footer>
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </template>
+        </b-card>
+
+        <b-card
+          title="Card Title"
           img-src="/Equipo/Investigadores/Maria Paula Varcarcel.jpeg"
           img-alt="Maria Paula Varcarcel"
+          img-top
+          style="max-width: 20rem;"
+          class="mb-2"
+          border-variant="primary"
+        >
+          <b-card-text>
+            Some quick example text to build on the card title and make up the bulk of the card's content.
+          </b-card-text>
+          <template #footer>
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </template>
+        </b-card>
+
+        <b-card
+          title="Card Title"
+          img-src="/Equipo/Investigadores/Jaime Salgado Lopez.jpeg"
+          img-alt="Jaime Salgado Lopez"
           img-top
           style="max-width: 20rem;"
           class="mb-2"
