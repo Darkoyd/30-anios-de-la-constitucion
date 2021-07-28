@@ -13,7 +13,7 @@
         *Inserte Logo y/o titulo aca*
       </b-navbar-brand>
       <b-navbar-nav class="ml-auto pr-5">
-        <b-nav-item v-for="(item, key) in navbarItems" :key="key" :href="item.link" class="px-1">
+        <b-nav-item v-for="(item, key) in navbarItems" :key="key" :to="item.link" class="px-1">
           {{ item.title }}
         </b-nav-item>
       </b-navbar-nav>
@@ -29,19 +29,19 @@ export default {
       navbarItems: [
         {
           title: 'Equipo',
-          link: 'team'
+          link: '/team'
         },
         {
           title: 'Asamblea Nacional Constituyente',
-          link: 'anc'
+          link: '/anc'
         },
         {
           title: 'Multimedia',
-          link: 'gallery'
+          link: '/gallery'
         },
         {
           title: 'Materiales',
-          link: 'materials'
+          link: '/materials'
         },
         {
           title: 'Libro',
