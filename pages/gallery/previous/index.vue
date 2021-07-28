@@ -83,6 +83,13 @@
         :img-src="item.link"
       />
     </b-carousel>
+    <small class="text-muted">Imagenes tomadas de: <b-link href="https://www.semana.com/nacion/articulo/los-estudiantes-septima-papeleta/114006-3/">https://www.semana.com/nacion/articulo/los-estudiantes-septima-papeleta/114006-3/</b-link></small>
+    <br>
+    <small class="text-muted"><b-link href="https://boyaca.extra.com.co/amp/noticias/Especiales/p/que-fue-la-septima-papeleta-movimiento-estudiantil-que-cumpl-597528">https://boyaca.extra.com.co/amp/noticias/Especiales/p/que-fue-la-septima-papeleta-movimiento-estudiantil-que-cumpl-597528</b-link></small>
+    <br>
+    <small class="text-muted"><b-link href="https://www.elcolombiano.com/blogs/casillerodeletras/deposite-hoy-la-septima-papeleta/17577">https://www.elcolombiano.com/blogs/casillerodeletras/deposite-hoy-la-septima-papeleta/17577</b-link></small>
+    <br>
+    <small class="text-muted"><b-link href="https://www.bbc.com/mundo/noticias-america-latina-51829209">https://www.bbc.com/mundo/noticias-america-latina-51829209</b-link></small>
   </div>
 </template>
 
