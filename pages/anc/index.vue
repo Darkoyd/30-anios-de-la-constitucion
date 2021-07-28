@@ -39,60 +39,62 @@
     <small class="text-muted">Tomado de: <b-link href="https://proyectos.banrepcultural.org/asamblea-nacional-constituyente/es">https://proyectos.banrepcultural.org/asamblea-nacional-constituyente/es</b-link></small>
     <br>
     <br>
-    <b-carousel
-      id="carousel-1"
-      v-model="slide"
-      :interval="4000"
-      controls
-      indicators
-      background="#ababab"
-      img-width="1024"
-      img-height="480"
-      style="text-shadow: 1px 1px 2px #333;"
-    >
-      <b-carousel-slide
-        img-src="/anc/Fotos/1.1.jpeg"
-      />
-      <b-carousel-slide
-        img-src="/anc/Fotos/1.2.png"
-      />
-      <b-carousel-slide
-        img-src="/anc/Fotos/1.3.png"
-      />
-      <b-carousel-slide
-        img-src="/anc/Fotos/1.4.png"
-      />
-      <b-carousel-slide
-        img-src="/anc/Fotos/1.5.png"
-      />
-      <b-carousel-slide
-        img-src="/anc/Fotos/1.6.png"
-      />
-      <b-carousel-slide
-        img-src="/anc/Fotos/2.jpeg"
-      />
-      <b-carousel-slide
-        img-src="/anc/Fotos/2.2.jpeg"
-      />
-      <b-carousel-slide
-        img-src="/anc/Fotos/3.jpeg"
-      />
-      <b-carousel-slide
-        img-src="/anc/Fotos/4.png"
-      />
-      <b-carousel-slide
-        img-src="/anc/Fotos/4.2.png"
-      />
-      <b-carousel-slide
-        img-src="/anc/Fotos/4.3.png"
-      />
-      <b-carousel-slide
-        img-src="/anc/Fotos/4.4.png"
-      />
-      <b-carousel-slide
-        img-src="/anc/Fotos/Copia de 4.png"
-      />
-    </b-carousel>
+    <b-container>
+      <b-carousel
+        id="carousel-1"
+        v-model="slide"
+        :interval="0"
+        controls
+        indicators
+        background="#ababab"
+        img-width="512"
+        img-height="480"
+        style="text-shadow: 1px 1px 2px #333;"
+      >
+        <b-carousel-slide
+          img-src="/anc/Fotos/1.1.jpeg"
+        />
+        <b-carousel-slide
+          img-src="/anc/Fotos/1.2.png"
+        />
+        <b-carousel-slide
+          img-src="/anc/Fotos/1.3.png"
+        />
+        <b-carousel-slide
+          img-src="/anc/Fotos/1.4.png"
+        />
+        <b-carousel-slide
+          img-src="/anc/Fotos/1.5.png"
+        />
+        <b-carousel-slide
+          img-src="/anc/Fotos/1.6.png"
+        />
+        <b-carousel-slide
+          img-src="/anc/Fotos/2.jpeg"
+        />
+        <b-carousel-slide
+          img-src="/anc/Fotos/2.2.jpeg"
+        />
+        <b-carousel-slide
+          img-src="/anc/Fotos/3.jpeg"
+        />
+        <b-carousel-slide
+          img-src="/anc/Fotos/4.png"
+        />
+        <b-carousel-slide
+          img-src="/anc/Fotos/4.2.png"
+        />
+        <b-carousel-slide
+          img-src="/anc/Fotos/4.3.png"
+        />
+        <b-carousel-slide
+          img-src="/anc/Fotos/4.4.png"
+        />
+        <b-carousel-slide
+          img-src="/anc/Fotos/Copia de 4.png"
+        />
+      </b-carousel>
+    </b-container>
     <br>
     <br>
     <h4>Documental</h4>
