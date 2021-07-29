@@ -1,18 +1,44 @@
 <template>
-  <div class="container">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum
-    ligula eleifend, eleifend tortor in, egestas risus. Donec fermentum erat
-    nibh, eget lacinia metus vulputate ut. Integer at ullamcorper dui. Mauris eu
-    nibh vel est lobortis condimentum. Nullam euismod risus ligula, id dictum
-    libero molestie at. Integer auctor posuere feugiat. Donec ac magna tristique
-    arcu rutrum eleifend. Class aptent taciti sociosqu ad litora torquent per
-    conubia nostra, per inceptos himenaeos. Morbi id mollis erat, eu sodales
-    risus. Vestibulum ut ex fermentum, volutpat lacus non, vestibulum lorem.
-    Morbi sed tortor quis dolor convallis placerat. Integer velit ex, accumsan
-    et ultricies sed, aliquet eu turpis. Nullam bibendum nulla id nulla egestas
-    lacinia. Donec malesuada mi ante, eu tristique quam iaculis ut. Nullam ut
-    sapien dapibus, blandit metus at, aliquet massa. Quisque fermentum volutpat
-    justo a vulputate.
+  <div class="container py-5">
+    <b-row class="py-4 text-center">
+      <b-col cols="6">
+        <div>
+          <b-link to="banco" append>
+            Banco de la República
+          </b-link>
+        </div>
+      </b-col>
+      <b-col cols="6">
+        <div>
+          <b-link to="corte" append>
+            Corte Constitucional
+          </b-link>
+        </div>
+      </b-col>
+    </b-row>
+    <b-row class="text-center">
+      <b-col cols="4">
+        <div>
+          <b-link to="defensoria" append>
+            Defensoria del Pueblo
+          </b-link>
+        </div>
+      </b-col>
+      <b-col cols="4">
+        <div>
+          <b-link to="fiscalia" append>
+            Fiscalia
+          </b-link>
+        </div>
+      </b-col>
+      <b-col cols="4">
+        <div>
+          <b-link to="procuraduria" append>
+            Procuraduria
+          </b-link>
+        </div>
+      </b-col>
+    </b-row>
   </div>
 </template>
 
