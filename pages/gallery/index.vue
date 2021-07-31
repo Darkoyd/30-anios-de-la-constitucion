@@ -1,7 +1,7 @@
 <template>
-  <div class="container pt-5">
+  <div class="container pt-3">
     <b-container>
-      <b-row>
+      <b-row class="py-2">
         <b-card no-body class="overflow-hidden">
           <b-row no-gutters>
             <b-col md="6">
@@ -21,7 +21,7 @@
           </b-row>
         </b-card>
       </b-row>
-      <b-row>
+      <b-row class="py-2">
         <b-card no-body class="overflow-hidden">
           <b-row no-gutters>
             <b-col md="6">
@@ -41,7 +41,7 @@
           </b-row>
         </b-card>
       </b-row>
-      <b-row>
+      <b-row class="py-2">
         <b-card no-body class="overflow-hidden">
           <b-row no-gutters>
             <b-col md="6">
