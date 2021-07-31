@@ -1,9 +1,7 @@
 <template>
   <div>
     <div class="navUp">
-      <b-container>
-        Una iniciativa para mostrar material sobre la Constitución Política de Colombia
-      </b-container>
+      Una iniciativa para mostrar material sobre la Constitución Política de Colombia
     </div>
     <b-navbar
       sticky
@@ -19,6 +17,27 @@
       </b-navbar-nav>
     </b-navbar>
     <Nuxt />
+    <br>
+    <div class="footer pt-2">
+      <b-row align-h="center">
+        <b-col cols="3" style="margin:auto; display:block;">
+          <img src="https://proyectopaz.uniandes.edu.co/wp-content/uploads/logo_andes_204.png">
+        </b-col>
+        <b-col cols="3" style="margin:auto; display:block;">
+          <img src="https://proyectopaz.uniandes.edu.co/wp-content/uploads/cijus_footer_blanco_305.png">
+        </b-col>
+      </b-row>
+      <b-row align-h="center">
+        Universidad de los Andes | Vigilada Mineducación
+        <br>
+        Reconocimiento como Universidad: Decreto 1297 del 30 de mayo de 1964.
+        <br>
+        Reconocimiento personería jurídica: Resolución 28 del 23 de febrero de 1949 Minjusticia.
+        <br>
+        Carrera 1# 18A-10, Edificio RGC, 2do piso. Bogotá, (Colombia) Tel:(57-1) 3394949 | Facultad de Derecho – Copyright ©
+        <br>
+      </b-row>
+    </div>
   </div>
 </template>
 
@@ -54,14 +73,18 @@ export default {
 </script>
 
 <style>
+.footer {
+  background-color: navy;
+  color: white;
+}
+
 .navUp {
-  background-color: #f8f9fa;
   padding-top: 2em;
   padding-bottom: 2em;
 }
 
 .navbar {
-  background-color: #5379d4;
+  background-color: navy;
 }
 .navbar .navbar-brand {
   color: #ecf0f1;

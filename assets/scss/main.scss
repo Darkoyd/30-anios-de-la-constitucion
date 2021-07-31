@@ -3,3 +3,27 @@
 @import '~bootstrap-vue/src/index.scss';
 // General style overrides and custom classes
 @import 'theme';
+
+:root {
+  --color: #000000;
+  --color-primary: $primary;
+  --color-secondary: #FF824A;
+  --bg: #f3f3f3;
+  --bg-secondary: #adadad;
+  --border-color: #DDD;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--color);
+  transition: background-color 0.3s;
+}
+
+.container {
+  background-color: var(--bg-secondary)
+}
+
+hr {
+  background-color: var(--color-secondary);
+  height: 2px;
+}
