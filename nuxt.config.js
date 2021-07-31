@@ -43,7 +43,9 @@ export default {
     'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    '@nuxtjs/style-resources'
+    '@nuxtjs/style-resources',
+    '@nuxtjs/content',
+    '@nuxtjs/color-mode'
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -58,5 +60,10 @@ export default {
   },
   styleResources: {
     scss: '@/assets/scss/_variables.scss'
+  },
+  content: {
+    csv: {
+      delimiter: '|'
+    }
   }
 }
