@@ -26,9 +26,12 @@
     <img src="/anc/Descripcion/Constituyentes.png">
     <br>
     <br>
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe src="https://docs.google.com/document/d/e/2PACX-1vRFHYjCDh00GXixmNbdPHdJRtHi3eYS6aP4PZkAcu3fSn6nRcTPm9gvdAlbS3ZndQ/pub?embedded=true" />
-    </div>
+    <b-embed
+      type="iframe"
+      aspect="16by9"
+      src="https://docs.google.com/document/d/e/2PACX-1vRFHYjCDh00GXixmNbdPHdJRtHi3eYS6aP4PZkAcu3fSn6nRcTPm9gvdAlbS3ZndQ/pub?embedded=true"
+      allowfullscreen
+    />
     <br>
     <br>
     <h4>Sobre la Asamblea Nacional Constituyente</h4>
