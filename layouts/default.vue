@@ -18,16 +18,17 @@
     </b-navbar>
     <Nuxt />
     <br>
-    <div class="footer pt-2">
+    <div class="container-fluid footer py-5">
       <b-row align-h="center">
-        <b-col cols="3" style="margin:auto; display:block;">
+        <b-col cols="3" style="display: block; margin: auto;">
           <img src="https://proyectopaz.uniandes.edu.co/wp-content/uploads/logo_andes_204.png">
         </b-col>
-        <b-col cols="3" style="margin:auto; display:block;">
+        <b-col cols="3" style="display: block; margin: auto;">
           <img src="https://proyectopaz.uniandes.edu.co/wp-content/uploads/cijus_footer_blanco_305.png">
         </b-col>
       </b-row>
-      <b-row align-h="center">
+      <hr>
+      <b-row align="center" align-h="center" class="justify-content-center">
         Universidad de los Andes | Vigilada Mineducación
         <br>
         Reconocimiento como Universidad: Decreto 1297 del 30 de mayo de 1964.
@@ -37,6 +38,7 @@
         Carrera 1# 18A-10, Edificio RGC, 2do piso. Bogotá, (Colombia) Tel:(57-1) 3394949 | Facultad de Derecho – Copyright ©
         <br>
       </b-row>
+      <hr>
     </div>
   </div>
 </template>

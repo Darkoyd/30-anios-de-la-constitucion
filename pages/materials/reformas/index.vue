@@ -1,23 +1,104 @@
 <template>
   <div class="container">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum
-    ligula eleifend, eleifend tortor in, egestas risus. Donec fermentum erat
-    nibh, eget lacinia metus vulputate ut. Integer at ullamcorper dui. Mauris eu
-    nibh vel est lobortis condimentum. Nullam euismod risus ligula, id dictum
-    libero molestie at. Integer auctor posuere feugiat. Donec ac magna tristique
-    arcu rutrum eleifend. Class aptent taciti sociosqu ad litora torquent per
-    conubia nostra, per inceptos himenaeos. Morbi id mollis erat, eu sodales
-    risus. Vestibulum ut ex fermentum, volutpat lacus non, vestibulum lorem.
-    Morbi sed tortor quis dolor convallis placerat. Integer velit ex, accumsan
-    et ultricies sed, aliquet eu turpis. Nullam bibendum nulla id nulla egestas
-    lacinia. Donec malesuada mi ante, eu tristique quam iaculis ut. Nullam ut
-    sapien dapibus, blandit metus at, aliquet massa. Quisque fermentum volutpat
-    justo a vulputate.
+    <b-row align="center" align-h="center">
+      <b-col cols="3">
+        <b-jumbotron header="Derechos Fundamentales">
+          xd
+        </b-jumbotron>
+      </b-col>
+      <b-col cols="3">
+        <b-jumbotron header="Aplicación de los derechos">
+          xd
+        </b-jumbotron>
+      </b-col>
+      <b-col cols="3">
+        <b-jumbotron header="Deberes y Obligaciones">
+          xd
+        </b-jumbotron>
+      </b-col>
+    </b-row>
+    <b-row>
+      <b-col cols="3">
+        <b-jumbotron header="Participación Política">
+          xd
+        </b-jumbotron>
+      </b-col>
+      <b-col cols="3">
+        <b-jumbotron header="Organización del Estado">
+          xd
+        </b-jumbotron>
+      </b-col>
+      <b-col cols="3">
+        <b-jumbotron header="Función Pública">
+          xd
+        </b-jumbotron>
+      </b-col>
+    </b-row>
+    <b-row>
+      <b-col cols="3">
+        <b-jumbotron header="Rama Legislativa">
+          xd
+        </b-jumbotron>
+      </b-col>
+      <b-col cols="3">
+        <b-jumbotron header="Rama Ejecutiva">
+          xd
+        </b-jumbotron>
+      </b-col>
+      <b-col cols="3">
+        <b-jumbotron header="Función Pública">
+          xd
+        </b-jumbotron>
+      </b-col>
+    </b-row>
+    <b-row>
+      <b-col cols="3">
+        <b-jumbotron header="Rama Judicial">
+          xd
+        </b-jumbotron>
+      </b-col>
+      <b-col cols="3">
+        <b-jumbotron header="Elecciones">
+          xd
+        </b-jumbotron>
+      </b-col>
+      <b-col cols="3">
+        <b-jumbotron header="Organismos de Control">
+          xd
+        </b-jumbotron>
+      </b-col>
+    </b-row>
+    <b-row>
+      <b-col cols="3">
+        <b-jumbotron header="Organización Territorial">
+          xd
+        </b-jumbotron>
+      </b-col>
+      <b-col cols="3">
+        <b-jumbotron header="Régimen Economico y de Hacienda Pública">
+          xd
+        </b-jumbotron>
+      </b-col>
+      <b-col cols="3">
+        <b-jumbotron header="Normas para la terminación del conflicto armado y la construcción de una paz estable y duradera">
+          xd
+        </b-jumbotron>
+      </b-col>
+    </b-row>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  async asyncData ({ $content, params }) {
+    const reformas = await $content('reformas').fetch()
+    const reformasParsed = reformas[0].body
+    return {
+      reformas,
+      reformasParsed
+    }
+  }
+}
 </script>
 
 <style>
