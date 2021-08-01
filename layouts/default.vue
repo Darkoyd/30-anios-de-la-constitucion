@@ -8,7 +8,7 @@
       fixed="top"
     >
       <b-navbar-brand class="px-5" href="/">
-        *Inserte Logo y/o titulo aca*
+        <h2>Datos Constitución 1991</h2>
       </b-navbar-brand>
       <b-navbar-nav class="ml-auto pr-5">
         <b-nav-item v-for="(item, key) in navbarItems" :key="key" :to="item.link" class="px-1">
