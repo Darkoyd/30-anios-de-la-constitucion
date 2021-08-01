@@ -155,7 +155,7 @@ export default {
           link: '/Mutimedia/Institucional/Banco de la República/Edificios Banco de la República/edificio-de-la-central-de-efectivo-del-banco-de-la-repblica-en-bogot_34021326183_o.jpg'
         },
         {
-          link: '/Mutimedia/Institucional/Banco de la República/Edificios Banco de la República/edificio-de-la-agencia-cultural-del-banco-de-la-repblica-en-popayn_34831211475_o.jpg'
+          link: '/Mutimedia/Institucional/Banco de la República/Edificios Banco de la República/edificio-del-banco-de-la-repblica-en-barranquilla_34829506626_o.jpg'
         },
         {
           link: '/Mutimedia/Institucional/Banco de la República/Edificios Banco de la República/edificio-del-banco-de-la-repblica-en-bogot_34698709541_o.jpg'
