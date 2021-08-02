@@ -163,7 +163,7 @@
     <br>
     <h4>Actas</h4>
     <b-link href="https://babel.banrepcultural.org/digital/collection/p17054coll26/id/3702/rec/1">
-      En este link se pueden encontrar todas las actas
+      En este link se pueden las actas
     </b-link>
     <br>
     <br>
