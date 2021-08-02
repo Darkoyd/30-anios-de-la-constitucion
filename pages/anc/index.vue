@@ -113,6 +113,23 @@
         <div>
           <h5>Intervención de Constituyente Indígena</h5>
           <small class="text-muted">Autor: Banco de la republica</small>
+        </div>
+      </b-col>
+      <b-col cols="4">
+        <div>
+          <h5>Intervención Álvaro Gómez Hurtado</h5>
+          <small class="text-muted">Autor: Banco de la República</small>
+        </div>
+      </b-col>
+      <b-col cols="4">
+        <div>
+          <h5>Video Clausura de la Asamblea Nacional Constituyente </h5>
+        </div>
+      </b-col>
+    </b-row>
+    <b-row>
+      <b-col cols="4">
+        <div>
           <b-embed
             type="iframe"
             aspect="16by9"
@@ -123,8 +140,6 @@
       </b-col>
       <b-col cols="4">
         <div>
-          <h5>Intervención Álvaro Gómez Hurtado</h5>
-          <small class="text-muted">Autor: Banco de la República</small>
           <b-embed
             type="iframe"
             aspect="16by9"
@@ -135,7 +150,6 @@
       </b-col>
       <b-col cols="4">
         <div>
-          <h5>Video Clausura de la Asamblea Nacional Constituyente </h5>
           <b-embed
             type="iframe"
             aspect="16by9"
