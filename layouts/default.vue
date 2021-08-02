@@ -1,7 +1,17 @@
 <template>
   <div>
     <div class="navUp">
-      Una iniciativa para mostrar material sobre la Constitución Política de Colombia
+      <b-row align-h="center">
+        <b-col cols="3" style="display: block; margin: auto;">
+          <img src="https://proyectopaz.uniandes.edu.co/wp-content/uploads/logo_andes_30.jpg">
+        </b-col>
+        <b-col cols="3" style="display: block; margin: auto;">
+          Una iniciativa para mostrar material sobre la Constitución Política de Colombia
+        </b-col>
+        <b-col cols="3" style="display: block; margin: auto;">
+          <img src="https://proyectopaz.uniandes.edu.co/wp-content/uploads/logo_cijus_30.jpg">
+        </b-col>
+      </b-row>
     </div>
     <b-navbar
       sticky

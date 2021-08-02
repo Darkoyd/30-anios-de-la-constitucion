@@ -37,6 +37,7 @@
         </div>
       </b-col>
     </b-row>
+    <hr class="separador">
     <h3>
       Defensores del Pueblo
     </h3>
@@ -150,6 +151,7 @@
         </div>
       </b-col>
     </b-row>
+    <hr class="separador">
     <h3 class="pt-4">
       Videos
     </h3>
@@ -225,4 +227,9 @@ export default {}
 </script>
 
 <style>
+.separador{
+  height: 0.08rem;
+  width: 20rem;
+  background-color: grey;
+}
 </style>

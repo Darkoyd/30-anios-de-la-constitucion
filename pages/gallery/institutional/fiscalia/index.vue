@@ -87,6 +87,7 @@
         </div>
       </b-col>
     </b-row>
+    <hr class="separador">
     <h3>
       Revista Huellas
     </h3>
@@ -108,6 +109,7 @@
       src="https://drive.google.com/file/d/1E1OiBZB-T8E6qO452Xgkcg9YbZ0QTRIu/preview"
       allowfullscreen
     />
+    <hr class="separador">
     <h3>
       Videos
     </h3>
@@ -244,4 +246,9 @@ export default {
 </script>
 
 <style>
+.separador{
+  height: 0.08rem;
+  width: 20rem;
+  background-color: grey;
+}
 </style>

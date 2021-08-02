@@ -11,11 +11,11 @@
       src="https://www.youtube.com/embed/nb8tl_hPFS4"
       allowfullscreen
     />
-    <br>
+    <hr class="separador">
     <h4>
       La Séptima Papeleta
     </h4>
-    <p class="text_justify">
+    <p class="text-justify">
       La Séptima Papeleta fue uno de los grandes impulsores de la Asamblea Nacional Constituyente y por medio de esta el pueblo invoco la creación de una nueva constitución.
     </p>
     <br>
@@ -65,7 +65,7 @@
         </div>
       </b-col>
     </b-row>
-    <br>
+    <hr class="separador">
     <b-carousel
       id="carousel-1"
       v-model="slide"
@@ -144,4 +144,9 @@ export default {
 </script>
 
 <style>
+.separador{
+  height: 0.08rem;
+  width: 20rem;
+  background-color: grey;
+}
 </style>

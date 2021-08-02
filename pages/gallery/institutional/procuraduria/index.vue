@@ -12,6 +12,7 @@
       src="https://www.youtube.com/embed/vq7LGiKOgnc"
       allowfullscreen
     />
+    <hr class="separador">
     <h3>
       Procuradores
     </h3>
@@ -99,4 +100,9 @@ export default {
 </script>
 
 <style>
+.separador{
+  height: 0.08rem;
+  width: 20rem;
+  background-color: grey;
+}
 </style>

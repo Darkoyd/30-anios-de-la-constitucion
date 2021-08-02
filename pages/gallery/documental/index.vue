@@ -53,6 +53,7 @@
         </div>
       </b-col>
     </b-row>
+    <hr class="separador">
     <b-row class="py-3">
       <b-col cols="3">
         <div>
@@ -125,4 +126,9 @@ export default {}
 </script>
 
 <style>
+.separador{
+  height: 0.08rem;
+  width: 20rem;
+  background-color: grey;
+}
 </style>

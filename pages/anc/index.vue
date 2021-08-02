@@ -6,22 +6,20 @@
     <br>
     <br>
     <h4>¿Qué fue la Asamblea Nacional Constituyente?</h4>
-    <p class="text_justify">
+    <p class="text-justify">
       La Asamblea Nacional Constituyente es el resultado de una masiva expresión ciudadana que pidió la redacción de una nueva Constitución en Colombia, en reemplazo de la Constitución de 1886. El 9 de diciembre de 1990, durante el gobierno de César Gaviria Trujillo, los colombianos votaron para la conformación democrática del grupo de líderes encargados de discutirla y escribirla.
     </p>
     <small class="text-muted">Basado en: <b-link href="http://www.indepaz.org.co/wp-content/uploads/2013/04/La_constituyente_de_1991.pdf">http://www.indepaz.org.co/wp-content/uploads/2013/04/La_constituyente_de_1991.pdf</b-link></small>
-    <br>
-    <br>
+    <hr class="separador">
     <h4>
       ¿De donde nacío la Asamblea Nacional Constituyente?
     </h4>
-    <p class="text_justify">
+    <p class="text-justify">
       El camino para llegar a esta Asamblea, se materializó gracias a la exigencia de la ciudadanía ya que la nueva Constitución fue una realidad gracias a la Séptima papeleta, propuesta originada por un sector de académicos y líderes sindicalistas, la cual fue fortalecida con el movimiento estudiantil que planteó la inclusión de un séptimo voto en las elecciones del 11 de marzo de 1990 el cual solicitaría la convocatoria de una Asamblea Constituyente.
     </p>
     <small class="text-muted">Basado en: <b-link href="http://www.indepaz.org.co/wp-content/uploads/2013/04/La_constituyente_de_1991.pdf">
       http://www.indepaz.org.co/wp-content/uploads/2013/04/La_constituyente_de_1991.pdf</b-link></small>
-    <br>
-    <br>
+    <hr class="separador">
     <h4>¿Quiénes Conformaron la Asamblea Nacional Constituyente?</h4>
     <img src="/anc/Descripcion/Constituyentes.png">
     <br>
@@ -32,16 +30,14 @@
       src="https://docs.google.com/document/d/e/2PACX-1vRFHYjCDh00GXixmNbdPHdJRtHi3eYS6aP4PZkAcu3fSn6nRcTPm9gvdAlbS3ZndQ/pub?embedded=true"
       allowfullscreen
     />
-    <br>
-    <br>
+    <hr class="separador">
     <h4>Sobre la Asamblea Nacional Constituyente</h4>
-    <p class="text_justify">
+    <p class="text-justify">
       <q>
         La garantía de los derechos se hace posible cuando la gente hace propia la Constitución; cuando la ejerce, la hace parte de su vida y la utiliza para hacer valer sus derechos que, ahí escritos, son una promesa de dignidad. La Constitución no solo es un marco que ordena, sino un techo que intenta protegernos, diversos como somos, de la arbitrariedad.      </q>
     </p>
     <small class="text-muted">Tomado de: <b-link href="https://proyectos.banrepcultural.org/asamblea-nacional-constituyente/es">https://proyectos.banrepcultural.org/asamblea-nacional-constituyente/es</b-link></small>
-    <br>
-    <br>
+    <hr class="separador">
     <b-container>
       <b-carousel
         id="carousel-1"
@@ -98,8 +94,7 @@
         />
       </b-carousel>
     </b-container>
-    <br>
-    <br>
+    <hr class="separador">
     <h4>Documental</h4>
     <br>
     <h5>¿Cuál fue el legado de la Asamblea Nacional Constituyente?</h5>
@@ -110,8 +105,7 @@
       src="https://www.youtube.com/embed/6C754jL2rJI"
       allowfullscreen
     />
-    <br>
-    <br>
+    <hr class="separador">
     <h4>Intervenciones </h4>
     <br>
     <b-row>
@@ -167,4 +161,9 @@ export default {}
 </script>
 
 <style>
+.separador{
+  height: 0.08rem;
+  width: 20rem;
+  background-color: grey;
+}
 </style>

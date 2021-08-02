@@ -28,6 +28,7 @@
         </template>
       </b-card>
     </b-card-group>
+    <hr class="separador">
     <h3>
       Acerca del Banco
     </h3>
@@ -70,6 +71,7 @@
         </div>
       </b-col>
     </b-row>
+    <hr class="separador">
     <b-container class="py-3">
       <b-carousel
         id="carousel-1"
@@ -89,6 +91,7 @@
         />
       </b-carousel>
     </b-container>
+    <hr class="separador">
     <b-card
       title="Autoridades Históricas del Banco de la República"
       img-src="/Mutimedia/Institucional/Banco de la República/Fotos Gerentes/AutoridadesHistoricas.jpg"
@@ -203,4 +206,9 @@ export default {
 </script>
 
 <style>
+.separador{
+  height: 0.08rem;
+  width: 20rem;
+  background-color: grey;
+}
 </style>

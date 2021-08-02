@@ -56,6 +56,7 @@
         </b-card-text>
       </b-card>
     </b-card-group>
+    <hr class="separador">
     <h3>
       Entrevistas a diferentes magistrados de la Corte Constitucional
     </h3>
@@ -168,4 +169,9 @@ export default {
 </script>
 
 <style>
+.separador{
+  height: 0.08rem;
+  width: 20rem;
+  background-color: grey;
+}
 </style>
