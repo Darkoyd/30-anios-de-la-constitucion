@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: '30-anios-de-la-constitucion',
+    title: 'Datos Constitución 1991',
     htmlAttrs: {
       lang: 'en'
     },

@@ -1,24 +1,14 @@
 <template>
   <div>
-    <div class="navUp">
-      <b-row align-h="center">
-        <b-col cols="3" style="display: block; margin: auto;">
-          <img src="https://proyectopaz.uniandes.edu.co/wp-content/uploads/logo_andes_30.jpg">
-        </b-col>
-        <b-col cols="3" style="display: block; margin: auto;">
-          Una iniciativa para mostrar material sobre la Constitución Política de Colombia
-        </b-col>
-        <b-col cols="3" style="display: block; margin: auto;">
-          <img src="https://proyectopaz.uniandes.edu.co/wp-content/uploads/logo_cijus_30.jpg">
-        </b-col>
-      </b-row>
-    </div>
     <b-navbar
       sticky
       fixed="top"
+      class="mb-5"
     >
       <b-navbar-brand class="px-5" href="/">
-        <h2>Datos Constitución 1991</h2>
+        <h3 class="pl-5">
+          Datos Constitución 1991
+        </h3>
       </b-navbar-brand>
       <b-navbar-nav class="ml-auto pr-5">
         <b-nav-item v-for="(item, key) in navbarItems" :key="key" :to="item.link" class="px-1">
@@ -28,7 +18,7 @@
     </b-navbar>
     <Nuxt />
     <br>
-    <div class="container-fluid footer py-5">
+    <div class="container-fluid footer py-5 mt-5">
       <b-row align-h="center">
         <b-col cols="3" style="display: block; margin: auto;">
           <img src="https://proyectopaz.uniandes.edu.co/wp-content/uploads/logo_andes_204.png">

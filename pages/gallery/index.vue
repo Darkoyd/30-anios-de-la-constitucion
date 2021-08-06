@@ -1,17 +1,16 @@
 <template>
-  <div class="container pt-3">
-    <b-container>
-      <b-row class="py-2">
-        <b-card no-body class="overflow-hidden">
-          <b-row no-gutters>
+  <div class="container">
+    <b-container class="px-5">
+      <b-row class="py-2 px-5 mx-5">
+        <b-card no-body class="overflow-hidden px-5 mx-5">
+          <b-row no-gutters align-v="center" align="center">
             <b-col md="6">
               <b-card-img src="https://picsum.photos/400/400/?image=20" alt="Image" class="rounded-0 imageCard" />
             </b-col>
             <b-col md="6">
               <b-card-body title="Previo a la constituyente">
                 <b-card-text>
-                  This is a wider card with supporting text as a natural lead-in to additional content.
-                  This content is a little bit longer.
+                  Sucesos y acontecimientos que llevaron a la formación de la constituyente.
                 </b-card-text>
                 <b-button variant="outline-primary" to="gallery/previous">
                   Ver más
@@ -21,17 +20,16 @@
           </b-row>
         </b-card>
       </b-row>
-      <b-row class="py-2">
-        <b-card no-body class="overflow-hidden">
-          <b-row no-gutters>
+      <b-row class="py-2 px-5 mx-5">
+        <b-card no-body class="overflow-hidden px-5 mx-5">
+          <b-row no-gutters align-v="center" align="center">
             <b-col md="6">
               <b-card-img src="https://picsum.photos/400/400/?image=20" alt="Image" class="rounded-0 imageCard" />
             </b-col>
             <b-col md="6">
               <b-card-body title="Institucional">
                 <b-card-text>
-                  This is a wider card with supporting text as a natural lead-in to additional content.
-                  This content is a little bit longer.
+                  Galerias varias de las instituciones gubernamentales.
                 </b-card-text>
                 <b-button variant="outline-primary" to="gallery/institutional">
                   Ver más
@@ -41,17 +39,16 @@
           </b-row>
         </b-card>
       </b-row>
-      <b-row class="py-2">
-        <b-card no-body class="overflow-hidden">
-          <b-row no-gutters>
+      <b-row class="py-2 px-5 mx-5">
+        <b-card no-body class="overflow-hidden px-5 mx-5">
+          <b-row no-gutters align-v="center" align="center">
             <b-col md="6">
               <b-card-img src="https://picsum.photos/400/400/?image=20" alt="Image" class="rounded-0 imageCard" />
             </b-col>
             <b-col md="6">
               <b-card-body title="Documentales y foros">
                 <b-card-text>
-                  This is a wider card with supporting text as a natural lead-in to additional content.
-                  This content is a little bit longer.
+                  Documentales varios y videos de interes con respecto a la constitución.
                 </b-card-text>
                 <b-button variant="outline-primary" to="gallery/documental">
                   Ver más
@@ -71,7 +68,7 @@ export default {}
 
 <style>
 .imageCard {
-  max-width: 40%;
-  margin-left: 30%;
+  width:75% !important;
+  height:100%;
 }
 </style>
