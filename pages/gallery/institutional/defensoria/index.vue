@@ -125,9 +125,12 @@
       </b-col>
       <b-col cols="3">
         <div>
-          <b-link href="https://www.facebook.com/watch/?v=900476120011920">
-            En este link puedes ver un video acerca de Jorge Armando Otálora
-          </b-link>
+          <b-embed
+            type="iframe"
+            aspect="16by9"
+            src="https://www.youtube.com/embed/CkNyJ-1cDC4"
+            allowfullscreen
+          />
         </div>
       </b-col>
       <b-col cols="3">
@@ -213,7 +216,7 @@
           <b-embed
             type="iframe"
             aspect="16by9"
-            src="https://player.vimeo.com/video/23911588"
+            src="https://player.vimeo.com/video/23908594"
             allowfullscreen
           />
         </div>

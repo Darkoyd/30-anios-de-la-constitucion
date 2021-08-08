@@ -160,7 +160,7 @@ export default {
         },
         {
           nombre: 'Valdmiro Naranjo',
-          link: 'https://www.youtube.com/embed/C-4kImzH6hQ'
+          link: 'https://www.youtube.com/embed/kwdKmNR8PRQ'
         }
       ]
     }

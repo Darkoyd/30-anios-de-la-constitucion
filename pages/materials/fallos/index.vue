@@ -64,16 +64,16 @@ export default {
           links: ['https://drive.google.com/file/d/1Acrm6tJ3scIKxb42RT0hhXlkslnzw3uk/view?usp=sharing']
         },
         {
-          titulo: 'Constitucionalidad de la Ley de cuotas (pdf pendiente)',
+          titulo: 'Constitucionalidad de la Ley de cuotas',
           numeros: ['C-371/2000'],
           miembros: ['M.P Carlos Gaviria Díaz'],
-          links: ['#']
+          links: ['https://drive.google.com/file/d/1Hgl5u9bZ5zIVOqKieEhlFXZQYs8yt8WU/preview']
         },
         {
-          titulo: 'Libre desarrollo de la personalidad en colegios (pdf pendiente)',
+          titulo: 'Libre desarrollo de la personalidad en colegios',
           numeros: ['T-065/1993'],
           miembros: ['M.P. Ciro Angarita Baron'],
-          links: ['#']
+          links: ['https://drive.google.com/file/d/1yXCxcgZlzUOpiCd2OMMyVUK7ATaI8itv/preview']
         },
         {
           titulo: 'Estado de Cosas Iconstituconales (Sistema Carcelario)',
