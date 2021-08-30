@@ -7,7 +7,7 @@
     >
       <b-navbar-brand class="px-5" href="/">
         <h3 class="pl-5">
-          Datos Constitución 1991
+          Datos de la Constitución Pólitica de Colombia de 1991
         </h3>
       </b-navbar-brand>
       <b-navbar-nav class="ml-auto pr-5">

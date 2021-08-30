@@ -73,6 +73,9 @@
     </b-row>
     <hr class="separador">
     <b-container class="py-3">
+      <h2>
+        Edificios del Banco de la República
+      </h2>
       <b-carousel
         id="carousel-1"
         v-model="slide"

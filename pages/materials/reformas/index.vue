@@ -1,5 +1,14 @@
 <template>
   <div class="container mt-3 p-3">
+    <h2>
+      Reformas constitucionales relevantes
+    </h2>
+    <br>
+    <br>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mattis pellentesque nibh, sed placerat massa placerat eleifend. Nam a urna nec sapien ultrices imperdiet quis sit amet mi. Sed placerat odio et egestas suscipit. Duis odio orci, fermentum luctus vehicula non, lacinia sed leo. Nunc eget tortor quis turpis mattis pretium sed eu mauris. Suspendisse vitae egestas mi. Nunc ac tortor et arcu hendrerit ornare. Quisque in est a tellus commodo molestie ut sed dui. Pellentesque ornare sem vitae ex volutpat, quis lobortis metus dapibus. Integer tristique sem ut ipsum consequat lacinia porta quis enim. In eget egestas urna. Vestibulum est risus, vestibulum eu elementum vitae, malesuada vestibulum nunc. Morbi vulputate odio eu mi molestie, in hendrerit enim accumsan. In orci nulla, condimentum ut sodales ut, feugiat id massa.
+    <br>
+    <hr class="separador">
+    <br>
     <b-row align="center" align-h="center" class="wideRow">
       <b-col cols="3">
         <b-jumbotron header="Aplicación de los derechos">
@@ -288,5 +297,10 @@ h1 {
 .wideRow {
   margin-left: -17%;
   margin-right: -17%;
+}
+.separador{
+  height: 0.08rem;
+  width: 20rem;
+  background-color: grey;
 }
 </style>

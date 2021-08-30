@@ -161,11 +161,16 @@
     </b-row>
     <br>
     <br>
-    <h4>Actas</h4>
-    <b-link href="https://babel.banrepcultural.org/digital/collection/p17054coll26/id/3702/rec/1">
-      En este link se pueden las actas
-    </b-link>
+    <hr class="separador">
+    <h4>Gaceta Constitucional</h4>
     <br>
+    <br>
+    La Gaceta Constitucional fue una publicación periódica que sirvió como órgano divulgativo oficial de la Asamblea Nacional Constituyente. Su primer número salió al público el 5 de febrero de 1991 bajo el nombre de ‘Diario de la Asamblea Nacional Constituyente’, sin embargo, a partir del número 3 cambia su nombre a ‘Gaceta Constitucional’. En sus páginas se publicaron 64 actas de sesiones plenarias, 152 proyectos de ley, 152 ponencias, 112 actas de comisiones, 580 constancias, 76 intervenciones políticas, tres codificaciones de la constitución, el reglamento de la Asamblea, los perfiles profesionales de sus miembros y demás noticias referentes a la Constituyente.
+    <br>
+    <br>
+    <b-btn class="ml-5" size="lg" href="https://babel.banrepcultural.org/digital/collection/p17054coll26/id/3850/" target="_blank">
+      Ver la gaceta
+    </b-btn>
     <br>
   </div>
 </template>
