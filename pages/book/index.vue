@@ -1,6 +1,11 @@
 <template>
-  <div class="container pt-5">
+  <div class="container">
     <h1>Libro</h1>
+    <br>
+    <br>
+    En este enlace están recopilados todos los cuadros, con información relevante sobre los impactos de la constitución, que se elaboraron y están expuestos en el libro.
+    <hr class="separador">
+    <br>
     <br>
     <div v-for="(item, key) in libroParsed" :key="key">
       <b-jumbotron :header="key+1 + ' - ' +item.title" class="jumboCard">

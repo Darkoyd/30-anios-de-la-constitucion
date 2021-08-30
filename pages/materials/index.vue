@@ -1,7 +1,14 @@
 <template>
   <div class="container">
+    <h2>
+      Materiales
+    </h2>
+    <br>
+    Dentro de los materiales se encontrarán providencias judiciales importantes y actos legislativos reformatorios de la Constitución.    <hr class="separador">
+    <br>
+    <br>
     <b-container class="px-5">
-      <b-row class="py-2 px-5 mx-5">
+      <b-row class="px-5 mx-5">
         <b-card no-body class="overflow-hidden px-5 mx-5">
           <b-row no-gutters align-v="center" align="center">
             <b-col md="6">

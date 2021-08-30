@@ -1,10 +1,15 @@
 <template>
-  <div class="container py-5">
+  <div class="container pb-5">
     <h2 class="text-center">
       Fiscalía General de la Nación
     </h2>
+    <br>
+    <br>
+    <hr class="separador">
+    <br>
+    <br>
     <h3>
-      Fiscales por Años
+      Fiscales Generales desde 1992 hasta la actualidad
     </h3>
     <b-row class="py-3">
       <b-col

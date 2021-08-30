@@ -1,7 +1,15 @@
 <template>
   <div class="container">
+    <h2>
+      Galeria
+    </h2>
+    <br>
+    En el presente apartado se encontrarán diferentes videos e imágenes conmemorativas de la constitución de 1991. Pasando desde los momentos previos hasta las instituciones que fueron creadas por la Carta Política del 91. Asimismo, hay una recolección de algunos de los foros y documentales que se han realizado sobre la Constitución de 1991.
+    <hr class="separador">
+    <br>
+    <br>
     <b-container class="px-5">
-      <b-row class="py-2 px-5 mx-5">
+      <b-row class="px-5 mx-5">
         <b-card no-body class="overflow-hidden px-5 mx-5">
           <b-row no-gutters align-v="center" align="center">
             <b-col md="6">
@@ -70,5 +78,10 @@ export default {}
 .imageCard {
   width:75% !important;
   height:100%;
+}
+.separador{
+  height: 0.08rem;
+  width: 20rem;
+  background-color: grey;
 }
 </style>

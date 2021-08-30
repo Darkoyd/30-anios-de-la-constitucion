@@ -1,8 +1,11 @@
 <template>
   <div class="container py-5">
     <h2 class="text-center">
-      Documentales y Foros
+      Documentales y Foros Sobre la Constitución de 1991
     </h2>
+    <br>
+    <hr>
+    <br>
     <b-row class="py-3">
       <b-col cols="4">
         <div>
