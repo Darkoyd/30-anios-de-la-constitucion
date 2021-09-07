@@ -5,7 +5,7 @@
         <b-card no-body class="overflow-hidden px-5 mx-5">
           <b-row no-gutters align-v="center" align="center">
             <b-col md="6">
-              <b-card-img src="https://picsum.photos/400/400/?image=20" alt="Image" class="rounded-0 imageCard" />
+              <b-card-img src="/Mutimedia/Institucional/Menu/banco_rep.jpg" alt="Image" class="rounded-0 imageCard" />
             </b-col>
             <b-col md="6">
               <b-card-body title="Banco de la República">
@@ -24,7 +24,7 @@
         <b-card no-body class="overflow-hidden px-5 mx-5">
           <b-row no-gutters align-v="center" align="center">
             <b-col md="6">
-              <b-card-img src="https://picsum.photos/400/400/?image=20" alt="Image" class="rounded-0 imageCard" />
+              <b-card-img src="/Mutimedia/Institucional/corte/2.jpeg" alt="Image" class="rounded-0 imageCard" />
             </b-col>
             <b-col md="6">
               <b-card-body title="Corte Constitucional">
@@ -43,7 +43,7 @@
         <b-card no-body class="overflow-hidden px-5 mx-5">
           <b-row no-gutters align-v="center" align="center">
             <b-col md="6">
-              <b-card-img src="https://picsum.photos/400/400/?image=20" alt="Image" class="rounded-0 imageCard" />
+              <b-card-img src="/Mutimedia/Institucional/Menu/defensoria.jpg" alt="Image" class="rounded-0 imageCard" />
             </b-col>
             <b-col md="6">
               <b-card-body title="Defensoria del Pueblo">
@@ -62,7 +62,7 @@
         <b-card no-body class="overflow-hidden px-5 mx-5">
           <b-row no-gutters align-v="center" align="center">
             <b-col md="6">
-              <b-card-img src="https://picsum.photos/400/400/?image=20" alt="Image" class="rounded-0 imageCard" />
+              <b-card-img src="/Mutimedia/Institucional/Menu/fiscalia.png" alt="Image" class="rounded-0 imageCard" />
             </b-col>
             <b-col md="6">
               <b-card-body title="Fiscalia">
@@ -81,7 +81,7 @@
         <b-card no-body class="overflow-hidden px-5 mx-5">
           <b-row no-gutters align-v="center" align="center">
             <b-col md="6">
-              <b-card-img src="https://picsum.photos/400/400/?image=20" alt="Image" class="rounded-0 imageCard" />
+              <b-card-img src="/Mutimedia/Institucional/Menu/procuraduria.png" alt="Image" class="rounded-0 imageCard" />
             </b-col>
             <b-col md="6">
               <b-card-body title="Procuraduria">

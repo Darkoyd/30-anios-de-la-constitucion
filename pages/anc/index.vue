@@ -21,15 +21,19 @@
       http://www.indepaz.org.co/wp-content/uploads/2013/04/La_constituyente_de_1991.pdf</b-link></small>
     <hr class="separador">
     <h4>¿Quiénes Conformaron la Asamblea Nacional Constituyente?</h4>
-    <img src="/anc/Descripcion/Constituyentes.png">
-    <br>
-    <br>
-    <b-embed
-      type="iframe"
-      aspect="16by9"
-      src="https://docs.google.com/document/d/e/2PACX-1vRFHYjCDh00GXixmNbdPHdJRtHi3eYS6aP4PZkAcu3fSn6nRcTPm9gvdAlbS3ZndQ/pub?embedded=true"
-      allowfullscreen
-    />
+    <div class="row">
+      <div class="col">
+        <b-embed
+          type="iframe"
+          aspect="1by1"
+          src="https://docs.google.com/document/d/e/2PACX-1vRFHYjCDh00GXixmNbdPHdJRtHi3eYS6aP4PZkAcu3fSn6nRcTPm9gvdAlbS3ZndQ/pub?embedded=true"
+          allowfullscreen
+        />
+      </div>
+      <div class="col">
+        <img src="/anc/Descripcion/Constituyentes.png">
+      </div>
+    </div>
     <hr class="separador">
     <h4>Sobre la Asamblea Nacional Constituyente</h4>
     <p class="text-justify">

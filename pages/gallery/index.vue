@@ -13,7 +13,7 @@
         <b-card no-body class="overflow-hidden px-5 mx-5">
           <b-row no-gutters align-v="center" align="center">
             <b-col md="6">
-              <b-card-img src="https://picsum.photos/400/400/?image=20" alt="Image" class="rounded-0 imageCard" />
+              <b-card-img src="/Mutimedia/Previo/papeleta/4.png" alt="Image" class="rounded-0 imageCard" />
             </b-col>
             <b-col md="6">
               <b-card-body title="Previo a la constituyente">
@@ -29,10 +29,10 @@
         </b-card>
       </b-row>
       <b-row class="py-2 px-5 mx-5">
-        <b-card no-body class="overflow-hidden px-5 mx-5">
+        <b-card no-body class="overflow-hidden px-5 mx-5 menuCard">
           <b-row no-gutters align-v="center" align="center">
             <b-col md="6">
-              <b-card-img src="https://picsum.photos/400/400/?image=20" alt="Image" class="rounded-0 imageCard" />
+              <b-card-img src="/Mutimedia/Menu/instituciones.png" alt="Image" class="rounded-0 imageCard" />
             </b-col>
             <b-col md="6">
               <b-card-body title="Institucional">
@@ -51,7 +51,7 @@
         <b-card no-body class="overflow-hidden px-5 mx-5">
           <b-row no-gutters align-v="center" align="center">
             <b-col md="6">
-              <b-card-img src="https://picsum.photos/400/400/?image=20" alt="Image" class="rounded-0 imageCard" />
+              <b-card-img src="/Mutimedia/Menu/constitucion.jpg" alt="Image" class="rounded-0 imageCard" />
             </b-col>
             <b-col md="6">
               <b-card-body title="Documentales y foros">
@@ -77,7 +77,8 @@ export default {}
 <style>
 .imageCard {
   width:75% !important;
-  height:100%;
+  height:90%;
+  padding: 10%;
 }
 .separador{
   height: 0.08rem;

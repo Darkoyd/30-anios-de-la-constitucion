@@ -12,7 +12,7 @@
         <b-card no-body class="overflow-hidden px-5 mx-5">
           <b-row no-gutters align-v="center" align="center">
             <b-col md="6">
-              <b-card-img src="https://picsum.photos/400/400/?image=20" alt="Image" class="rounded-0 imageCard" />
+              <b-card-img src="/Materiales/reformas.jpg" alt="Image" class="rounded-0 imageCard" />
             </b-col>
             <b-col md="6">
               <b-card-body title="Reformas constitucionales relevantes">
@@ -31,7 +31,7 @@
         <b-card no-body class="overflow-hidden px-5 mx-5">
           <b-row no-gutters align-v="center" align="center">
             <b-col md="6">
-              <b-card-img src="https://picsum.photos/400/400/?image=20" alt="Image" class="rounded-0 imageCard" />
+              <b-card-img src="/Materiales/fallos.jpeg" alt="Image" class="rounded-0 imageCard" />
             </b-col>
             <b-col md="6">
               <b-card-body title="Fallos relevantes de la corte constitucional">
@@ -50,7 +50,7 @@
         <b-card no-body class="overflow-hidden px-5 mx-5">
           <b-row no-gutters align-v="center" align="center">
             <b-col md="6">
-              <b-card-img src="https://picsum.photos/400/400/?image=20" alt="Image" class="rounded-0 imageCard" />
+              <b-card-img src="/Materiales/asamblea.jpg" alt="Image" class="rounded-0 imageCard" />
             </b-col>
             <b-col md="6">
               <b-card-body title="Decreto convocatoria a la asamblea">
