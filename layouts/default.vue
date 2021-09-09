@@ -39,6 +39,15 @@
         <br>
       </b-row>
       <hr>
+      <b-row>
+        <b-col cols="12" align="center">
+          <p class="h1">
+            <b-icon-github
+              @click="goToGitHub()"
+            />
+          </p>Made with ❤️ in Colombia
+        </b-col>
+      </b-row>
     </div>
   </div>
 </template>
@@ -69,6 +78,11 @@ export default {
           link: 'book'
         }
       ]
+    }
+  },
+  methods: {
+    goToGitHub () {
+      window.open('https://github.com/Darkoyd/30-anios-de-la-constitucion', '_blank').focus()
     }
   }
 }

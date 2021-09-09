@@ -39,14 +39,6 @@
         </b-col>
       </div>
     </b-row>
-    <div v-for="(item, key) in libroParsed" :key="key">
-      <b-jumbotron :header="key+1 + ' - ' +item.title" class="jumboCard">
-        <b-button :href="item.link" variant="primary" target="_blank" class="jumboCardButtons">
-          Abrir cuadro
-        </b-button>
-        <hr class="my-2">
-      </b-jumbotron>
-    </div>
   </div>
 </template>
 
@@ -80,11 +72,11 @@ h1 {
   padding: 2em !important;
 }
 .pagina {
-  height: 25rem;
+  height: 20rem;
   width: 25rem;
 }
 .paginaCont{
-  height: 20rem;
+  height: 17rem;
   width: 20rem;
 }
 </style>

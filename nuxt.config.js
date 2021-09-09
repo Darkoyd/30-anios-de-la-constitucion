@@ -56,7 +56,8 @@ export default {
   },
   bootstrapVue: {
     bootstrapCSS: false,
-    bootstrapVueCSS: false
+    bootstrapVueCSS: false,
+    icons: true
   },
   styleResources: {
     scss: '@/assets/scss/_variables.scss'

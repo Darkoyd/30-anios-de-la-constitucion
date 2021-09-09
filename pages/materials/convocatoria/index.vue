@@ -2,7 +2,7 @@
   <div class="container py-5">
     <b-container>
       <h2 class="text-center">
-        Proceso legal que llevo a la constitución de 1991
+        Proceso legal que llevó a la constitución de 1991
       </h2>
       <b-jumbotron
         v-for="(item, key) in procesos"
