@@ -9,7 +9,7 @@
     <br>
     <br>
     <h3>
-      Fiscales Generales desde 1992 hasta la actualidad
+      Fiscales Generales de la Nación desde 1992 hasta 2021
     </h3>
     <b-row class="py-3">
       <b-col
@@ -96,6 +96,7 @@
     <h3>
       Revista Huellas
     </h3>
+    Huellas es la revista institucional de la Fiscalía General de la Nación. Aquí se encuentra  la primera y la última edición.
     <h5 class="py-3">
       Edición 1 /1994
     </h5>

@@ -1,21 +1,12 @@
 <template>
   <div class="container">
     <h2>
-      ¿Qué es Constitución 2021?
+      ¿En qué consiste la iniciativa de "Constitución 1991"?
     </h2>
     <h5>
       "Una iniciativa para mostrar material sobre la Constitución Política de Colombia."
     </h5>
-    Donec luctus sit amet orci vitae varius. Etiam convallis magna eu blandit lobortis. In lacinia quam non mi gravida, in sodales lectus iaculis. Sed eu augue in purus cursus rutrum nec vel eros. Ut tincidunt quis odio ac tincidunt. Etiam sit amet nisi nec magna tempus elementum eget commodo justo. Sed luctus odio sapien, quis rhoncus ex vehicula non. Cras dictum vel est in placerat. Cras condimentum et nibh eu dapibus. Nullam vitae accumsan eros. Quisque metus erat, consectetur eget nibh vel, pretium cursus magna. Nam pharetra dignissim ex eu consectetur. Phasellus tempus neque vel neque blandit laoreet. Cras consectetur odio ut lacus consectetur aliquet. Duis pulvinar pretium massa, accumsan pretium neque dignissim ac. Fusce sit amet eleifend diam.
-    <br>
-    <br>
-    Donec nisi elit, congue faucibus rutrum eu, malesuada sit amet est. In a varius risus. Duis dictum urna urna, non semper ante sagittis a. Quisque interdum cursus tellus eget vehicula. Sed in facilisis risus. Cras erat tellus, facilisis sed lectus et, ullamcorper tempor nunc. Nunc scelerisque commodo fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum aliquam fermentum aliquam. Praesent sit amet erat purus. Mauris enim eros, faucibus at lectus sit amet, efficitur elementum tellus. Maecenas semper, sem ut finibus hendrerit, magna lacus tincidunt tellus, eu molestie mi eros nec eros. In tincidunt lacinia ultrices. Quisque mollis ex efficitur, lacinia risus eu, semper dui.
-    <br>
-    <br>
-    Donec luctus sit amet orci vitae varius. Etiam convallis magna eu blandit lobortis. In lacinia quam non mi gravida, in sodales lectus iaculis. Sed eu augue in purus cursus rutrum nec vel eros. Ut tincidunt quis odio ac tincidunt. Etiam sit amet nisi nec magna tempus elementum eget commodo justo. Sed luctus odio sapien, quis rhoncus ex vehicula non. Cras dictum vel est in placerat. Cras condimentum et nibh eu dapibus. Nullam vitae accumsan eros. Quisque metus erat, consectetur eget nibh vel, pretium cursus magna. Nam pharetra dignissim ex eu consectetur. Phasellus tempus neque vel neque blandit laoreet. Cras consectetur odio ut lacus consectetur aliquet. Duis pulvinar pretium massa, accumsan pretium neque dignissim ac. Fusce sit amet eleifend diam.
-    <br>
-    <br>
-    Aliquam laoreet, sem sed elementum convallis, lacus dui posuere ipsum, venenatis suscipit orci metus eget augue. Pellentesque ornare, lorem id gravida mattis, nibh ante convallis velit, ac gravida ipsum ante quis lectus. Ut viverra lorem ac eros egestas, ac luctus ipsum volutpat. Donec tristique orci in sapien interdum, et accumsan erat varius. Donec tempus tortor in mauris ultricies, sit amet hendrerit est accumsan. Nunc ornare ut ligula a tempor. Duis quis velit elit.
+    ¿Qué es Constitución 1991? Es una iniciativa que busca acercar la Constitución Política de Colombia  a la ciudadania y a otros actores. Lo anterior, por medio de una amplia colección de material gráfico y jurídico en el que se encuentra información desde la concepción de la Constitución hasta su actualidad.
     <br>
     <br>
     <h3>
@@ -53,7 +44,9 @@
         </div>
       </b-col>
     </b-row>
-    Nunc nec dapibus ipsum. Praesent iaculis, dolor at cursus ornare, leo neque laoreet nisi, et varius erat dolor in ante. Sed quis sapien metus. Proin eleifend ligula ac eleifend laoreet. Nunc id dolor dictum, congue turpis ut, sagittis justo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras et mauris massa. Vivamus eget sodales tellus, eget lobortis augue. Nullam malesuada metus in quam condimentum, vitae auctor ex condimentum. Nunc egestas egestas quam, at fermentum augue faucibus id. Aliquam faucibus tellus eros, ullamcorper euismod lacus malesuada a.
+    <br>
+    <br>
+    Este proyecto incluye un libro y está página web en conmemoración de los 30 años de la Constitución Política de Colombia de 1991.
   </div>
 </template>
 

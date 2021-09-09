@@ -7,6 +7,7 @@
       <b-jumbotron
         v-for="(item, key) in sentencias"
         :key="key"
+        class="sentencia"
         :header="item.titulo"
       >
         <b-container
@@ -90,5 +91,9 @@ export default {
 <style>
 .but{
   background-color: transparent;
+}
+.sentencia{
+  margin-left: 10%;
+  margin-right: 10%;
 }
 </style>

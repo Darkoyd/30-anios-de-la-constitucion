@@ -1,10 +1,15 @@
 <template>
   <div class="container mt-3 p-3">
-    <h2>
+    <h2 class="text-center">
       Reformas constitucionales relevantes
     </h2>
+    En el presente espacio se presentarán las reformas más relevantes a la constitución en sus 30 años de existencia. El Acto Legislativo es por el cual se cabían las disposiciones de la constitución.
     <br>
     <hr class="separador">
+    <br>
+    <h2 class="text-center">
+      Actos Legislativos
+    </h2>
     <br>
     <b-row align="center" align-h="center" class="wideRow">
       <b-col cols="3">

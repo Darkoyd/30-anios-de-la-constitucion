@@ -1,13 +1,20 @@
 <template>
   <div class="container pt-5">
+    <h1 class="text-center">
+      Equipo de trabajo
+    </h1>
+    <br>
+    <br>
     <h2>
-      Autores
+      Director del proyecto
     </h2>
+    <br>
+    <br>
     <b-row align-h="center" class="my-2" style="max-height:20%; overflow: auto;">
       <b-card-group deck>
         <b-card
           title="René Ureña"
-          img-src="/Equipo/Investigadores/René Ureña.jpeg"
+          img-src="/Equipo/Director/Rene Ureña.jpeg"
           img-alt="René Ureña"
           img-top
           style="max-width: 20rem;"
@@ -15,16 +22,22 @@
           border-variant="primary"
         >
           <b-card-text>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
+            Rene Ureña director del proyecto Constitución 1991 es abogado con especialización en  Economía en la Universidad de los Andes y con Phd en Derecho en la Universidad de Helsinki ubicada en Finlandia. Asimismo ha sido profesor en la Universidad de los Andes desde el 2003 y desde el 2005 se desempeña como director del área internacional de la facultad.
           </b-card-text>
-          <template #footer>
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </template>
+          <template #footer />
         </b-card>
-
+      </b-card-group>
+    </b-row>
+    <h2>
+      Autores
+    </h2>
+    <br>
+    <br>
+    <b-row align-h="center" class="my-2" style="max-height:20%; overflow: auto;">
+      <b-card-group deck>
         <b-card
-          title="Autor #2"
-          img-src="/Equipo/Investigadores/Autor #2.jpeg"
+          title="Manuel José Cepeda"
+          img-src="/Equipo/Autores/Jose Manuel Cepeda.jpeg"
           img-alt="Autor #2"
           img-top
           style="max-width: 20rem;"
@@ -32,11 +45,9 @@
           border-variant="primary"
         >
           <b-card-text>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
+            Manuel Jose Cepeda es un abogado colombiano graduado en la Universidad de los Andes y con maestría en Derecho en la Universidad de Harvard ubicada en los Estados Unidos. Fue una persona que se desempeñó en muchos ámbitos laborales, desde asesor de varios políticos colombianos hasta magistrado de la Corte Constitucional en el 2001.
           </b-card-text>
-          <template #footer>
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </template>
+          <template #footer />
         </b-card>
       </b-card-group>
     </b-row>
@@ -57,11 +68,9 @@
           border-variant="primary"
         >
           <b-card-text>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
+            Abogada con opción en politica colombiana.
           </b-card-text>
-          <template #footer>
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </template>
+          <template #footer />
         </b-card>
 
         <b-card
@@ -74,11 +83,9 @@
           border-variant="primary"
         >
           <b-card-text>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
+            Estudiante de Derecho y Gobierno y Asuntos Públicos en la Universidad de los Andes.
           </b-card-text>
-          <template #footer>
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </template>
+          <template #footer />
         </b-card>
 
         <b-card
@@ -91,11 +98,9 @@
           border-variant="primary"
         >
           <b-card-text>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
+            Abogada con opción en gestión pública, gobierno y políticas públicas. Estudiante de la Maestría en Derecho, gobierno y Gestión Pública.
           </b-card-text>
-          <template #footer>
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </template>
+          <template #footer />
         </b-card>
 
         <b-card
@@ -108,11 +113,9 @@
           border-variant="primary"
         >
           <b-card-text>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
+            Abogado de la Universidad de los Andes.
           </b-card-text>
-          <template #footer>
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </template>
+          <template #footer />
         </b-card>
 
         <b-card
@@ -125,11 +128,9 @@
           border-variant="primary"
         >
           <b-card-text>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
+            Estudiante de Derecho en Universidad de los Andes.
           </b-card-text>
-          <template #footer>
-            <small class="text-muted">Last updated 3 mins ago</small>
-          </template>
+          <template #footer />
         </b-card>
       </b-card-group>
     </b-row>

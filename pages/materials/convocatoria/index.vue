@@ -7,6 +7,7 @@
       <b-jumbotron
         v-for="(item, key) in procesos"
         :key="key"
+        class="decreto"
         :header="item.titulo"
       >
         <b-container
@@ -52,4 +53,8 @@ export default {
 </script>
 
 <style>
+.decreto{
+  margin-left: 10%;
+  margin-right: 10%;
+}
 </style>
