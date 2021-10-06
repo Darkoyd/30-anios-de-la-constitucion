@@ -6,9 +6,14 @@
       class="mb-5"
     >
       <b-navbar-brand class="px-5" href="/">
-        <h3 class="pl-5">
-          Datos de la Constitución Pólitica de Colombia de 1991
-        </h3>
+        <b-row no-gutters align-v="center" align="center" class="pl-5">
+          <b-col>
+            <img src="/Logo.jpg" height="90%" width="90%" class="mr-3">
+          </b-col>
+          <b-col>
+            <h5>Datos de la constitución politica de 1991</h5>
+          </b-col>
+        </b-row>
       </b-navbar-brand>
       <b-navbar-nav class="ml-auto pr-5">
         <b-nav-item v-for="(item, key) in navbarItems" :key="key" :to="item.link" class="px-1">
@@ -89,6 +94,7 @@ export default {
 </script>
 
 <style>
+
 .footer {
   background-color: navy;
   color: white;
@@ -104,6 +110,7 @@ export default {
 }
 .navbar .navbar-brand {
   color: #ecf0f1;
+  font-size: 2.25rem;
 }
 .navbar .navbar-brand:hover,
 .navbar .navbar-brand:focus {
