@@ -8,7 +8,7 @@
       <b-navbar-brand class="px-5" href="/">
         <b-row no-gutters align-v="center" align="center" class="pl-5">
           <b-col>
-            <img src="/Logo.jpg" height="90%" width="90%" class="mr-3">
+            <img src="/Logo.jpg" alt="Universidad de los Andes | Facultad de Derecho" height="90%" width="90%" class="mr-3">
           </b-col>
           <b-col>
             <h5>Datos de la constitución politica de 1991</h5>
@@ -25,11 +25,11 @@
     <br>
     <div class="container-fluid footer py-5 mt-5">
       <b-row align-h="center">
-        <b-col cols="3" style="display: block; margin: auto;">
-          <img src="https://proyectopaz.uniandes.edu.co/wp-content/uploads/logo_andes_204.png">
+        <b-col cols="3" class="niceCols">
+          <img src="https://proyectopaz.uniandes.edu.co/wp-content/uploads/logo_andes_204.png" alt="Universidad de los Andes">
         </b-col>
-        <b-col cols="3" style="display: block; margin: auto;">
-          <img src="https://proyectopaz.uniandes.edu.co/wp-content/uploads/cijus_footer_blanco_305.png">
+        <b-col cols="3" class="niceCols">
+          <img src="https://proyectopaz.uniandes.edu.co/wp-content/uploads/cijus_footer_blanco_305.png" alt="CIJUS">
         </b-col>
       </b-row>
       <hr>
@@ -94,6 +94,11 @@ export default {
 </script>
 
 <style>
+
+.niceCols {
+  display: block;
+  margin: auto;
+}
 
 .footer {
   background-color: navy;

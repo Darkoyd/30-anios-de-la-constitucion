@@ -85,7 +85,7 @@
         background="#ababab"
         img-width="512"
         img-height="480"
-        style="text-shadow: 1px 1px 2px #333;"
+        class="niceContainer"
       >
         <b-carousel-slide
           v-for="(item, key) in edificios"
@@ -213,5 +213,9 @@ export default {
   height: 0.08rem;
   width: 20rem;
   background-color: grey;
+}
+
+.niceContainer {
+  text-shadow: 1px 1px 2px #333;
 }
 </style>

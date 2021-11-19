@@ -9,7 +9,7 @@
     <p class="text-justify">
       La Asamblea Nacional Constituyente es el resultado de una masiva expresión ciudadana que pidió la redacción de una nueva Constitución en Colombia, en reemplazo de la Constitución de 1886. El 9 de diciembre de 1990, durante el gobierno de César Gaviria Trujillo, los colombianos votaron para la conformación democrática del grupo de líderes encargados de discutirla y escribirla.
     </p>
-    <small class="text-muted">Basado en: <b-link href="http://www.indepaz.org.co/wp-content/uploads/2013/04/La_constituyente_de_1991.pdf">http://www.indepaz.org.co/wp-content/uploads/2013/04/La_constituyente_de_1991.pdf</b-link></small>
+    <small class="text-muted">Basado en: <b-link href="https://www.indepaz.org.co/wp-content/uploads/2013/04/La_constituyente_de_1991.pdf">http://www.indepaz.org.co/wp-content/uploads/2013/04/La_constituyente_de_1991.pdf</b-link></small>
     <hr class="separador">
     <h4>
       ¿De donde nacío la Asamblea Nacional Constituyente?
@@ -17,8 +17,8 @@
     <p class="text-justify">
       El camino para llegar a esta Asamblea, se materializó gracias a la exigencia de la ciudadanía ya que la nueva Constitución fue una realidad gracias a la Séptima papeleta, propuesta originada por un sector de académicos y líderes sindicalistas, la cual fue fortalecida con el movimiento estudiantil que planteó la inclusión de un séptimo voto en las elecciones del 11 de marzo de 1990 el cual solicitaría la convocatoria de una Asamblea Constituyente.
     </p>
-    <small class="text-muted">Basado en: <b-link href="http://www.indepaz.org.co/wp-content/uploads/2013/04/La_constituyente_de_1991.pdf">
-      http://www.indepaz.org.co/wp-content/uploads/2013/04/La_constituyente_de_1991.pdf</b-link></small>
+    <small class="text-muted">Basado en: <b-link href="https://www.indepaz.org.co/wp-content/uploads/2013/04/La_constituyente_de_1991.pdf">
+      https://www.indepaz.org.co/wp-content/uploads/2013/04/La_constituyente_de_1991.pdf</b-link></small>
     <hr class="separador">
     <h4>¿Quiénes Conformaron la Asamblea Nacional Constituyente?</h4>
     <div class="row">
@@ -31,7 +31,7 @@
         />
       </div>
       <div class="col">
-        <img src="/anc/Descripcion/Constituyentes.png">
+        <img src="/anc/Descripcion/Constituyentes.png" alt="Constituyentes">
       </div>
     </div>
     <hr class="separador">
@@ -52,7 +52,7 @@
         background="#ababab"
         img-width="512"
         img-height="480"
-        style="text-shadow: 1px 1px 2px #333;"
+        class="niceContainer"
       >
         <b-carousel-slide
           img-src="/anc/Fotos/1.1.jpeg"
@@ -188,5 +188,9 @@ export default {}
   height: 0.08rem;
   width: 20rem;
   background-color: grey;
+}
+
+.niceContainer {
+  text-shadow: 1px 1px 2px #333;
 }
 </style>

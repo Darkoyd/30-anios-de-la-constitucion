@@ -1,8 +1,8 @@
 <template>
   <div class="container">
-    <h2>
+    <h1>
       ¿En qué consiste la iniciativa de "Constitución 1991"?
-    </h2>
+    </h1>
     <h5>
       "Una iniciativa para mostrar material sobre la Constitución Política de Colombia."
     </h5>
