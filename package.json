@@ -23,7 +23,9 @@
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.9.1",
     "nuxt": "^2.15.3",
-    "nuxt-robots-module": "^1.5.1"
+    "nuxt-robots-module": "^1.5.1",
+    "css-what": ">5.0.1",
+    "trim": ">=0.0.3"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^6.0.0",
