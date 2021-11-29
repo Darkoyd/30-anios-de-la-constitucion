@@ -68,7 +68,7 @@ export default {
     Disallow: ['/book', '/materials', '/gallery']
   },
   sitemap: {
-    hostname: 'datosconstitucion1991.uniandes.edu.co',
+    hostname: 'http://datosconstitucion1991.uniandes.edu.co',
     gzip: true
   },
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
