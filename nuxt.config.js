@@ -35,6 +35,9 @@ export default {
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
+  generate: {
+    fallback: '404.html'
+  },
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
